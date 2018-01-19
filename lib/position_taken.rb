@@ -1,7 +1,7 @@
 # code your #position_taken? method here!
 board = Array.new(9, " ")
 
-def position_taken?(board, index) do
+def position_taken?(board, index)
   if board[index] == " " || board[index] == ""
     puts false
   elsif board[index] == nil
