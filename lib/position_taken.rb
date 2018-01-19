@@ -2,7 +2,7 @@
 board = Array.new(9, " ")
 
 def position_taken?(board, index) do
-  if board[index] == " " || ""
+  if board[index] == " " || board[index] == ""
     puts false
   #elsif board[index] == nil
   #  puts false
